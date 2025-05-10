@@ -1,14 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hoja de vida - Karolain Reyes</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-    
+    <div class="contenedor-grid">
+    <header class="banner">
+        <h1>Mi portafolio</h1>
+    </header>
+    <section class="seccio-principal">
+        <div class="video-container">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/GRgEwvaLhzA?si=AR0ZRJWes_1vaj4N"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        </div>
+        <div class="info-personal">
+        <img src="/image/FOTO KAROL (1).jpg" alt="Foto de perfil Karol" />
+        <p>
+            Estudiante de <em>Desarrollo de Software</em> con conocimientos
+            prácticos en <i>Python, HTML y CSS</i>. Me caracterizo por tener
+            habilidades comunicativas, trabajo en equipo y una fuerte capacidad
+            para aprender y adaptarme a nuevas tecnologías. Me apasiona la
+            programación y la resolución de problemas a través del desarrollo
+            web y de software
+        </p>
+        </div>
+    </section>
+    <section class="habilidades">
+        <h2>Habilidades tecnicas</h2>
+        <ul>
+            <li>Lenguajes de programación: Python, HTML, CSS</li>
+            <li>Herramientas y tecnologías: Git, GitHub, Visual Studio Code</li>
+            <li>Desarrollo web: Maquetación con HTML y CSS, principios de diseño responsive</li>
+            <li>Otros: Comunicación efectiva, trabajo en equipo, pensamiento lógico</li>
+        </ul>
+    </section>
+    <section class="carrusel-container">
+        <h2>Proyectos destacados</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1">
+            </button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2">
+            </button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3">
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./image/Vista-previa-formulario.png" class="d-block w-100" alt="Vista previa formulario" />
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Formularios en HTML</h5>
+                <p>Este proyecto consiste en un formulario web desarrollado con HTML5 para registrar la participación de ciudadanos en una competencia de atletismo organizada por la Alcaldía de Bucaramanga.</p></div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p></div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p></div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+    </div>
 </body>
+</html>
